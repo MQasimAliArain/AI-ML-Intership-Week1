@@ -1,5 +1,5 @@
 # AI & ML Internship
-# Task 2: Stock Price Prediction
+## Task 2: Stock Price Prediction
 ## Task Objective
 To predict the closing price of Apple Inc. (AAPL) using machine learning regression models (Linear Regression and Random Forest).
 ## Dataset
