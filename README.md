@@ -27,6 +27,19 @@ To develop an intelligent, safe, and interactive health query chatbot using Larg
     - Safety Guidelines
     - Conclusion
     - Medical Disclaimer
+      
+## Task 6: House Price Prediction
+## Task Objective
+To predict the market value of residential properties using machine learning regression models (Linear Regression and XGBoost) based on physical features and location.
+## Dataset
+- **Source**: Synthetic dataset generated with 2,000 rows to simulate real estate market trends.
+- **Features**: Square Feet, Bedrooms, Bathrooms, Location (City, Suburbs, Rural).
+- **Target**: House Price.
+## Models Used
+1. **Linear Regression**: A baseline statistical model used to identify linear relationships between property size and price.
+2. **XGBoost Regressor**: An advanced gradient boosting ensemble model designed to capture complex patterns and improve prediction accuracy.
+## Results
+The models achieved high precision with an **R2 Score of 0.99**. Linear Regression provided a slightly lower Mean Absolute Error (MAE) of **$11,604**, while XGBoost demonstrated strong stability across the 2,000-row dataset. An interactive **IPyWidgets dashboard** was implemented to allow real-time price estimation based on user input.
 4. **Interactive Interface**: A custom-built Jupyter Notebook UI featuring real-time animations and automated smooth scrolling.
 ## Results
 The chatbot delivers low-latency responses with high factual consistency using a low-temperature setting ($T=0.1$). Testing confirmed that the safety layer reliably triggers for harmful prompts, and the structured persona effectively organizes complex health information into a readable, professional format.
