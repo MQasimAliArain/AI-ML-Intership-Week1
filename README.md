@@ -29,7 +29,7 @@ To develop an intelligent, safe, and interactive health query chatbot using Larg
     - Medical Disclaimer
     ## Results
 The chatbot delivers low-latency responses with high factual consistency using a low-temperature setting ($T=0.1$). Testing confirmed that the safety layer reliably triggers for harmful prompts, and the structured persona effectively organizes complex health information into a readable, professional format.
-  
+
 ## Task 6: House Price Prediction
 ## Task Objective
 To predict the market value of residential properties using machine learning regression models (Linear Regression and XGBoost) based on physical features and location.
